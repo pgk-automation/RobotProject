@@ -50,3 +50,12 @@ Test3
     LoginKW    
     Close Browser
     Log    Test complete
+    
+Test4
+    [Tags]    Regression
+    Open Browser    ${url}    ${browser}
+    Maximize Browser Window
+    Set Browser Implicit Wait    5
+    LoginKW    
+    Close Browser
+    Log    Test complete
